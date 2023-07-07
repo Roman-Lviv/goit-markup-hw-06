@@ -1,9 +1,9 @@
-/**
+/* *
   |============================
   | RESET
   |============================
 */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -29,14 +29,14 @@ img {
   display: block;
 }
 
-/*________________________________________________________*/
+
 .container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-/*________________________________________________________*/
+
 :root {
   --primary-brand-color: #4D5AE5;
   --body-text-color: #434455;
@@ -74,7 +74,7 @@ body {
 
 .list {
   list-style: none;
-}
+} */
 
 /**
   |============================
@@ -82,7 +82,7 @@ body {
   |============================
 */
 
-.weblogo {
+/* .weblogo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -171,9 +171,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
-
 
 .btn-hero {
   font-family: "Roboto", sans-serif;
@@ -500,7 +498,6 @@ body {
 .heder-studio {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
-  
 }
 
 .heder-past {
@@ -540,10 +537,6 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
-.list-content {
-
-}
-
 .list-back {
   display: flex; 
   gap: 24px;
@@ -565,13 +558,10 @@ body {
   padding: 32px 0;
 }
 
-
-
 .team-spase {
   display: flex;
   justify-content: center;
   gap: 24px; 
-
 }
 
 .team-spase-paga {
@@ -634,7 +624,6 @@ body {
   transform: translateY(0%);
 }
 
-
 .content-title {
   padding: 32px 16px;
   border: 1px solid #e7e9fc; 
@@ -652,7 +641,6 @@ body {
 .footer-hero {
   display: flex;
   align-items: baseline;
-  
 }
 
 .footer-social {
@@ -671,7 +659,6 @@ body {
   height: 40px;
 }
 
-
 .footer-social:hover {
   background-color: #31d0aa;
 }
@@ -681,19 +668,14 @@ body {
 
 .icon-footer {
   fill: var(--footer-color);
-}
-
-.footer-social-page {
-
-}
-
+} */
 /**
-  |============================
+  |===============================================================================================
   | CLIENTS
-  |============================
+  |===============================================================================================
 */
 
-.clients-list {
+/* .clients-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -760,14 +742,14 @@ fill: currentColor;
 }
 .team-icons:focus {
   background-color: var(--pressed-state-color);
-}
+} */
 /**
-  |============================
+  |====================================================================================================
   | Modal-Window
-  |============================
+  |====================================================================================================
 */
 
-.team-icons-title {
+/* .team-icons-title {
   fill: var(--light-mode-color);
 }
 
@@ -846,14 +828,14 @@ fill: currentColor;
 .icon-modal:hover,
 .icon-modal:focus {
   fill: #ffffff;
-}
+} */
 
 /**
-  |============================
+  |===================================================================================================
   | Subscribe Form
-  |============================
+  |===================================================================================================
 */
-.subscribe {
+/* .subscribe {
   margin-left: auto;
 }
 
@@ -963,10 +945,6 @@ border-color: var(--blue-button);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-person:focus {
-  
-}
-
 .coment-text {
   width: 100%;
   height: 120px; 
@@ -1035,10 +1013,12 @@ border-color: var(--blue-button);
   border: none;
   border-radius: 4px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
+} */
 
 /**
-  |============================
-  | HOME WORK 6
-  |============================
-*/
+  |====================================================================================================
+  | MOBILE FIRST 
+  |====================================================================================================
+ */
+
+ 
