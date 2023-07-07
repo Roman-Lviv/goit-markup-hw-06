@@ -3,7 +3,7 @@
   | RESET
   |============================
 */
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -74,7 +74,7 @@ body {
 
 .list {
   list-style: none;
-} */
+}
 
 /**
   |============================
@@ -1021,4 +1021,18 @@ border-color: var(--blue-button);
   |====================================================================================================
  */
 
- 
+ @media (min-width:768px) and (max-width:1158px) {
+  .body {
+    width: 2504px;
+    height: 3246px;
+  }
+  .weblogo {
+    padding: 24px 0;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+    margin-right: 76px;
+  }
+
+ }
