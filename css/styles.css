@@ -30,12 +30,12 @@ img {
 }
 
 
-.container {
+/* .container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 :root {
   --primary-brand-color: #4D5AE5;
@@ -82,7 +82,7 @@ body {
   |============================
 */
 
-/* .weblogo {
+.weblogo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -668,14 +668,14 @@ body {
 
 .icon-footer {
   fill: var(--footer-color);
-} */
+}
 /**
   |===============================================================================================
   | CLIENTS
   |===============================================================================================
 */
 
-/* .clients-list {
+.clients-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -742,14 +742,14 @@ fill: currentColor;
 }
 .team-icons:focus {
   background-color: var(--pressed-state-color);
-} */
+}
 /**
   |====================================================================================================
   | Modal-Window
   |====================================================================================================
 */
 
-/* .team-icons-title {
+.team-icons-title {
   fill: var(--light-mode-color);
 }
 
@@ -828,14 +828,14 @@ fill: currentColor;
 .icon-modal:hover,
 .icon-modal:focus {
   fill: #ffffff;
-} */
+}
 
 /**
   |===================================================================================================
   | Subscribe Form
   |===================================================================================================
 */
-/* .subscribe {
+.subscribe {
   margin-left: auto;
 }
 
@@ -1013,7 +1013,7 @@ border-color: var(--blue-button);
   border: none;
   border-radius: 4px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-} */
+}
 
 /**
   |====================================================================================================
@@ -1021,18 +1021,23 @@ border-color: var(--blue-button);
   |====================================================================================================
  */
 
- @media (min-width:768px) and (max-width:1158px) {
-  .body {
-    width: 2504px;
-    height: 3246px;
+ .container {
+  min-width: 320px;
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
   }
-  .weblogo {
-    padding: 24px 0;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-brand-color);
-    margin-right: 76px;
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
   }
+}
 
- }
+/* https://github.com/goitacademy/mobile-menu-workshop */
