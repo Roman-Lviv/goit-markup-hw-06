@@ -29,14 +29,6 @@ img {
   display: block;
 }
 
-
-/* .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-} */
-
 :root {
   --primary-brand-color: #4D5AE5;
   --body-text-color: #434455;
@@ -74,6 +66,24 @@ body {
 
 .list {
   list-style: none;
+}
+.container {
+  min-width: 320px;
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
 }
 
 /**
@@ -171,6 +181,24 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .section-hero {
+    
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section-hero {
+    background: var(--dark-color);
+    padding: 188px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .btn-hero {
@@ -395,13 +423,36 @@ body {
   max-width: 264px;
 }
 
-.section-two{
+.section-two {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+@media screen and (min-width: 768px) {
+  .section-two {
+    
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
 .section-what {
   padding-bottom: 120px;
 }
+@media screen and (min-width: 768px) {
+  .section-what {
+    
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section-what {
+    padding-bottom: 120px;
+  }
+}
+
 
 .section-team {
   background-color: var(--light-mode-color);
@@ -1021,23 +1072,5 @@ border-color: var(--blue-button);
   |====================================================================================================
  */
 
- .container {
-  min-width: 320px;
-  max-width: 428px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-  }
-}
 
 /* https://github.com/goitacademy/mobile-menu-workshop */
