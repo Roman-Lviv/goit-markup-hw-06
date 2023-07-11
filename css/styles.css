@@ -185,7 +185,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office.jpg);
-  max-width: 1440px;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -435,9 +435,11 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .section-two {
-    
+  }
+  .advanse-icon {
+    display: none;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -445,6 +447,9 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
   }
+}
+.list-content {
+
 }
 
 .section-what {
@@ -464,7 +469,17 @@ body {
 
 .section-team {
   background-color: var(--light-mode-color);
-  padding: 120px 0;
+
+}
+@media screen and (max-width: 768px) {
+  .section-team {
+
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section-team {
+    padding: 120px 0;
+  }
 }
 
 .catalog {
@@ -784,7 +799,16 @@ fill: currentColor;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+@media screen and (min-width: 768px) {
+  .section-clients {
+    
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section-clients {
 
+  }
+}
 .customers {
   font-size: 36px;
   line-height: 1.11;
