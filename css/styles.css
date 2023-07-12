@@ -68,15 +68,11 @@ body {
   list-style: none;
 }
 .container {
-  min-width: 320px;
   max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -488,8 +484,8 @@ body {
 }
 
 .catalog {
+  width: 264px;
   background-color: var(--white-background-color);
-  width: calc((100% - 72px) / 4); 
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -645,9 +641,11 @@ body {
 }
 
 .page-catalog {
-
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center; 
   margin-top: 8px;
+  gap: 72px;
 }
 @media screen and (min-width: 768px) {
   .page-catalog {
