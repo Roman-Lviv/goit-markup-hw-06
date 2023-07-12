@@ -146,7 +146,12 @@ body {
   display: flex;
   gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+}
+.adres-menu-modal {
+  margin:auto 0;
+  color: var(--body-text-color);
+  gap: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studiologoheader {
@@ -641,7 +646,6 @@ body {
 
 .page-catalog {
 
-  gap: 24px; 
   justify-content: center; 
   margin-top: 8px;
 }
@@ -786,9 +790,22 @@ body {
 */
 
 .clients-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 16px) / 2);
+}
+@media screen and (min-width: 768px) {
+  .clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
 }
 .clients-item {
   width: calc((100% - 120px) / 6);
