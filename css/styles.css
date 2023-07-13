@@ -439,6 +439,7 @@ body {
 }
 
 .title-footer {
+  text-align: left;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -447,7 +448,29 @@ body {
   color: var(--light-mode-color);
   max-width: 264px;
 }
-
+@media screen and (min-width: 768px) {
+  .title-footer  {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-mode-color);
+    max-width: 264px;
+  }
+ 
+}
+@media screen and (min-width: 1158px) {
+  .title-footer  {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-mode-color);
+    max-width: 264px;
+  }
+}
 .section-two {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -514,9 +537,18 @@ body {
 }
 
 .footer-portfolio {
-  margin-right: 120px;  
+   text-align: center;
 }
-
+@media screen and (min-width: 768px) {
+  .footer-portfolio {
+    margin-right: 120px; 
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer-portfolio {
+    margin-right: 120px; 
+  }
+}
 
 .footer-social-title {
   font-style: normal;
@@ -527,6 +559,11 @@ body {
   color: var(--white-background-color);
   margin-bottom: 16px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.footer-social-page {
+  margin-top: 72px;
+text-align: center;
 }
 
 .catalog-portfolio {
@@ -1061,6 +1098,8 @@ fill: currentColor;
   |===================================================================================================
 */
 .subscribe {
+  margin-top: 72px;
+  text-align: center;
   margin-left: auto;
 }
 
@@ -1103,6 +1142,8 @@ fill: currentColor;
 }
 
 .subscribe-btn {
+
+  margin: 16px auto;
   min-width: 165px;
   min-width: 165px;
   display: flex; 
