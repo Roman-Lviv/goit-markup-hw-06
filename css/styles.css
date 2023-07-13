@@ -612,18 +612,18 @@ body {
 }
 
 .list-past {
- 
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
 }
 @media screen and (min-width: 768px) {
   .list-past {
-    display: flex; 
-    gap: 24px; 
+    
   }
 }
 @media screen and (min-width: 1158px) {
   .list-past {
-    display: flex; 
-    gap: 24px; 
+  
   }
 }
 
