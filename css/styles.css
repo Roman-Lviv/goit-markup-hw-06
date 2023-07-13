@@ -237,13 +237,24 @@ body {
 }
 
 .advanse-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
+  display: none;
+
+}
+@media screen and (min-width: 768px) {
+  .advanse-icon {
+    display: none;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .advanse-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
 }
 
 .hero-text {
@@ -390,6 +401,11 @@ body {
   color: var(--dark-color);
   margin-bottom: 8px;
 }
+@media screen and (max-width: 768px) {
+  .title-text-icons {
+    text-align: center;
+  }
+}
 
 .weblogofooter {
   font-family: 'Raleway', sans-serif;
@@ -439,9 +455,7 @@ body {
 @media screen and (max-width: 768px) {
   .section-two {
   }
-  .advanse-icon {
-    display: none;
-  }
+ 
 }
 @media screen and (min-width: 1158px) {
   .section-two {
@@ -628,7 +642,17 @@ body {
 }
 
 .list-past-content {
+ 
+}
+@media screen and (min-width: 768px) {
+  .list-past-content{
+    width: calc((100% - 72px) / 2);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .list-past-content {
   width: calc((100% - 72px) / 4);
+  }
 }
 
 .list-back {
