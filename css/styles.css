@@ -517,6 +517,7 @@ body {
   margin-right: 120px;  
 }
 
+
 .footer-social-title {
   font-style: normal;
   font-weight: 500;
@@ -812,11 +813,12 @@ body {
 }
 
 .footer-hero {
+  align-items: center;
   
-  align-items: baseline;
 }
 @media screen and (min-width: 768px) {
   .footer-hero  {
+    align-items: baseline;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -824,6 +826,7 @@ body {
 }
 @media screen and (min-width: 1158px) {
   .footer-hero  {
+    align-items: baseline;
     display: flex;
     justify-content: center;
     gap: 24px;
