@@ -862,6 +862,8 @@ body {
   .footer-hero  {
     align-items: baseline;
     display: flex;
+    flex-wrap: wrap;
+    text-align: left;
     justify-content: center;
     gap: 24px;
   }
@@ -874,6 +876,11 @@ body {
     gap: 24px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .footer-hero  {
+    padding: 0 100px;
+  }
+  }
 .footer-social {
   align-items: center;
   justify-content: center; 
@@ -1113,7 +1120,8 @@ fill: currentColor;
   }
 }
 .subscribe-form {
-
+display: contents;
+gap: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1131,10 +1139,12 @@ fill: currentColor;
 
 .lable-subscribe {
   gap: 24px;
+  width: 100%;
 }
 
 .email-footer {
-  width: 264px; 
+  width: 100%;
+  /* width: 264px;  */
   height: 40px;
   border: 1px solid #ffffff; 
   background-color: transparent;
@@ -1327,9 +1337,9 @@ border-color: var(--blue-button);
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin: 0;
-  padding: 0;
+  margin-left: auto;
+  /* margin: 0;
+  padding: 0; */
   background-color: transparent;
   cursor: pointer;
   border: none;
