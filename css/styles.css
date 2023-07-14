@@ -537,11 +537,12 @@ body {
 }
 
 .footer-portfolio {
-   text-align: center;
+   
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer-portfolio {
-    margin-right: 120px; 
+    text-align: center;
+    
   }
 }
 @media screen and (min-width: 1158px) {
@@ -563,9 +564,13 @@ body {
 
 .footer-social-page {
   margin-top: 72px;
-text-align: center;
-}
 
+}
+@media screen and (max-width: 768px) {
+  .footer-social-page {
+    text-align: center;
+  }
+}
 .catalog-portfolio {
   font-weight: 500;
   line-height: 1.5;
@@ -1099,10 +1104,14 @@ fill: currentColor;
 */
 .subscribe {
   margin-top: 72px;
-  text-align: center;
+ 
   margin-left: auto;
 }
-
+@media only screen and (max-width: 768px) {
+  .subscribe {
+    text-align: center;
+  }
+}
 .subscribe-form {
 
 }
@@ -1143,7 +1152,7 @@ fill: currentColor;
 
 .subscribe-btn {
 
-  margin: 16px auto;
+  margin-top: 16px;
   min-width: 165px;
   min-width: 165px;
   display: flex; 
@@ -1160,7 +1169,11 @@ fill: currentColor;
   border: none; 
   border-radius: 4px; 
 }
-
+@media only screen and (max-width: 768px) {
+  .subscribe-btn {
+    margin: 16px auto;
+  }
+}
 .icon-frame {
   margin-left: 16px; 
 }
