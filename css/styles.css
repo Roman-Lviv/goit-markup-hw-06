@@ -538,20 +538,6 @@ body {
   margin-right: auto;
 }
 
-.footer-portfolio {
-   
-}
-@media screen and (max-width: 768px) {
-  .footer-portfolio {
-    text-align: center;
-    
-  }
-}
-@media screen and (min-width: 1158px) {
-  .footer-portfolio {
-    margin-right: 120px; 
-  }
-}
 
 .footer-social-title {
   font-style: normal;
@@ -565,13 +551,6 @@ body {
 }
 
 .footer-social-page {
-  margin-top: 72px;
-
-}
-@media screen and (max-width: 768px) {
-  .footer-social-page {
-    text-align: center;
-  }
 }
 .catalog-portfolio {
   font-weight: 500;
@@ -866,7 +845,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    justify-content: center;
+   
     gap: 24px;
   }
 }
@@ -1111,25 +1090,16 @@ fill: currentColor;
   | Subscribe Form
   |===================================================================================================
 */
-.subscribe {
-  margin-top: 72px;
- 
-  margin-left: auto;
-}
-@media only screen and (max-width: 768px) {
-  .subscribe {
-    text-align: center;
-  }
-}
 .subscribe-form {
 display: contents;
 gap: 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .subscribe-form.section-hero {
+  .subscribe-form. {
     display: flex;
     gap: 24px;
+    width: 264px;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -1163,8 +1133,7 @@ gap: 24px;
 }
 
 .subscribe-btn {
-
-  margin-top: 16px;
+  padding: 8px 24px;
   min-width: 165px;
   min-width: 165px;
   display: flex; 
