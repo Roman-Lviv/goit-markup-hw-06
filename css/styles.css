@@ -27,6 +27,8 @@ button {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 :root {
@@ -188,28 +190,26 @@ body {
   padding: 188px 0;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office.jpg);
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office1desk@1x.jpg); */
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/Dark-bg1_mob@1x.jpg);
 }
-@media screen and (min-width: 768px) {
+/* @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section-hero {
-    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office1desk@2x.jpg);
+  }
+} */
+
+@media screen and (min-width: 429px) {
+  .section-hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/Dark-bg2_tab@1x.jpg);
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 769px) {
   .section-hero {
-    background: var(--dark-color);
-    padding: 188px 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office.jpg);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/people-office1desk@1x.jpg);
   }
 }
 
