@@ -163,6 +163,7 @@ body {
 }
 
 .weblogofooter {
+  
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -537,9 +538,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+.footer-portfolio {
+  text-align: center;
+}
 
 .footer-social-title {
+  text-align: center;
+  margin-top: 72px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1096,7 +1101,7 @@ gap: 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .subscribe-form. {
+  .subscribe-form {
     display: flex;
     gap: 24px;
     width: 264px;
@@ -1302,6 +1307,7 @@ border-color: var(--blue-button);
   |============================
 */
 .page-catalog-modal {
+
   display: flex;
   gap: 56px;
   margin-top: 48px;
