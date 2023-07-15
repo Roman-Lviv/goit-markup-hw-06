@@ -283,7 +283,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
-  
+}
+@media screen and (min-width: 768px) {
+  .hero-text {
+    max-width: 496px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .hero-text {
+    max-width: 496px;
+  }
 }
 .hero-menu-studio {
   font-style: normal;
