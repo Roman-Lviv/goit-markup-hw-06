@@ -933,9 +933,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .clients-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+
   }
 }
 @media screen and (min-width: 1158px) {
@@ -951,13 +949,13 @@ body {
 }
 @media screen and (min-width: 768px) {
   .clients-item {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 48px) / 3);
     height: 88px;
   }
 }
 @media screen and (min-width: 1158px) {
   .clients-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 120px) / 6);
     height: 88px;
   }
 }
