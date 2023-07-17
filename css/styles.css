@@ -708,9 +708,17 @@ body {
 
 .list-back {
   display: flex; 
-  gap: 24px;
 }
-
+@media screen and (min-width: 768px) {
+  .list-back {
+    gap: 24px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .list-back {
+    gap: 24px;
+  }
+}
 .list-back-content {
   width: calc((100% - 48px) / 3);
 }
