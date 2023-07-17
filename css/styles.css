@@ -1003,7 +1003,17 @@ fill: currentColor;
   }
 }
 .section-clients-customers {
-  width: 552px;
+  width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .section-clients-customers {
+    width: 552px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section-clients-customers {
+    width: 1158px;
+  }
 }
 .customers {
   font-size: 36px;
