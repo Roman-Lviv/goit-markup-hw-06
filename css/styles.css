@@ -555,19 +555,19 @@ body {
 .footer-bag {
   background-color: var(--dark-color);
   padding: 100px 0;
-  display: flex;
-  align-items: baseline;
+  /* display: flex; */
+  /* align-items: baseline; */
   margin-left: auto;
   margin-right: auto;
-  gap: 72px;
+  /* gap: 72px; */
 }
 .footer-portfolio {
   text-align: center;
+  margin-right: 120px;
 }
 
 .footer-social-title {
   text-align: center;
-  /* margin-top: 72px; */
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -577,7 +577,16 @@ body {
   margin-bottom: 16px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+@media screen and (min-width: 768px) {
+  .footer-social-title {
 
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer-social-title {
+
+  }
+}
 .footer-social-page {
 }
 .catalog-portfolio {
@@ -871,24 +880,19 @@ body {
 
 .footer-hero {
   align-items: center;
-  gap: 72px;
+
 }
 @media screen and (min-width: 768px) {
   .footer-hero  {
     align-items: baseline;
     display: flex;
     flex-wrap: wrap;
-    text-align: left;
-   
-    gap: 24px;
   }
 }
 @media screen and (min-width: 1158px) {
   .footer-hero  {
     align-items: baseline;
     display: flex;
-    justify-content: center;
-    gap: 24px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1157.98px) {
@@ -1140,22 +1144,22 @@ fill: currentColor;
   | Subscribe Form
   |===================================================================================================
 */
+.subscribe {
+  margin-left: auto;
+}
+
 .subscribe-form {
 display: contents;
-gap: 24px;
 }
 
 @media screen and (min-width: 768px) {
   .subscribe-form {
     display: flex;
-    gap: 24px;
-    width: 264px;
   }
 }
 @media screen and (min-width: 1158px) {
   .subscribe-form {
     display: flex;
-    gap: 24px;
   }
 }
 
@@ -1166,7 +1170,6 @@ gap: 24px;
 
 .email-footer {
   width: 100%;
-  /* width: 264px;  */
   height: 40px;
   border: 1px solid #ffffff; 
   background-color: transparent;
@@ -1178,11 +1181,22 @@ gap: 24px;
   border-radius: 4px;
   color: var(--white-background-color); 
 }
+@media screen and (min-width: 768px) {
+  .email-footer {
+
+  }
+}
+@media screen and (min-width: 1158px) {
+  .email-footer {
+      width: 264px; 
+  }
+}
 .E-mail {
   color: var(--white-background-color);
 }
 
 .subscribe-btn {
+  margin-left: 16px;
   padding: 8px 24px;
   min-width: 165px;
   min-width: 165px;
