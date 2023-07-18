@@ -55,7 +55,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--pressed-state-color);
+  color: var(--body-text-color);
 }
 
 .link:hover {
@@ -140,9 +140,27 @@ body {
 .meil-tel {
   color: var(--body-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
-
+.tel-modal {
+  color: var(--blue-button);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+.mei-modal {
+  color: var(--body-text-color);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.4px;
+}
 .adres-menu {
   color: var(--body-text-color);
   display: flex;
@@ -288,8 +306,8 @@ body {
 .hero-text {
   font-style: normal;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background-color);
@@ -301,11 +319,15 @@ body {
 @media screen and (min-width: 768px) {
   .hero-text {
     max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
   }
 }
 @media screen and (min-width: 1158px) {
   .hero-text {
     max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
   }
 }
 .hero-menu-studio {
@@ -579,6 +601,7 @@ body {
   text-align: center;
   margin-bottom: 72px;
 }
+
 @media screen and (min-width: 768px) {
   .footer-portfolio {
     margin-right: auto;
@@ -590,7 +613,7 @@ body {
   }
 }
 .footer-social-title {
-  text-align: center;
+  
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -600,16 +623,12 @@ body {
   margin-bottom: 16px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer-social-title {
-    margin-right: auto;
+    text-align: center;
   }
 }
-@media screen and (min-width: 1158px) {
-  .footer-social-title {
-    margin-right: auto;
-  }
-}
+
 .footer-social-page {
   display: flex;
   flex-direction: column;
@@ -1464,7 +1483,14 @@ border-color: var(--blue-button);
  
 }
 .link-color {
-  color: var(--body-text-color);
+  color: var(--pressed-state-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .mobile-menu .link {
   display: block;
