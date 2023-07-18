@@ -1519,3 +1519,8 @@ border-color: var(--blue-button);
   color: var(--body-text-color);
   text-decoration: none;
 }
+
+.menu-container-clouse {
+  border-radius: 50%;
+  border: 1px solid var(--title-light);
+}
