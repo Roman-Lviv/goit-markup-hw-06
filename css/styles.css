@@ -205,6 +205,7 @@ letter-spacing: 0.4px;
   color: var(--primary-brand-color);
   display: inline-block;
   margin-bottom: 16px;
+  
 }
 @media screen and (min-width: 768px) {
   .weblogofooter {
@@ -608,6 +609,7 @@ text-align: left;
 @media screen and (min-width: 768px) {
   .footer-portfolio {
     margin-right: auto;
+    text-align: left;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -616,7 +618,6 @@ text-align: left;
   }
 }
 .footer-social-title {
-  
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -635,8 +636,13 @@ text-align: left;
 .footer-social-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
   margin-bottom: 72px;
+}
+@media screen and (min-width: 767px) {
+  .footer-social-page {
+    text-align: left;
+  }
 }
 .catalog-portfolio {
   font-weight: 500;
