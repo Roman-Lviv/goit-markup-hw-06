@@ -1447,13 +1447,12 @@ border-color: var(--blue-button);
   align-items: center;
   justify-content: center;
   margin-left: auto;
-  /* margin: 0;
-  padding: 0; */
   background-color: transparent;
   cursor: pointer;
   border: none;
-  border-radius: 50%;
   outline: none;
+  border-radius: 50%;
+  border: 1px solid var(--title-light);
 }
 
 @media (min-width: 768px) {
@@ -1521,6 +1520,7 @@ border-color: var(--blue-button);
 }
 
 .menu-container-clouse {
-  border-radius: 50%;
-  border: 1px solid var(--title-light);
+  /* border-radius: 50%;
+  border: 1px solid var(--title-light); */
+
 }
