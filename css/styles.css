@@ -104,9 +104,12 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
   margin-right: 76px;
-
 }
-
+@media screen and (min-width: 768px) {
+  .weblogo {
+    margin-right: 120px;
+  }
+}
 .activ {
   position: relative;
   color: var(--pressed-state-color);
@@ -145,6 +148,17 @@ body {
   display: flex;
   gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 768px) {
+  .adres-menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .adres-menu {
+
+  }
 }
 .adres-menu-modal {
   margin:auto 0;
@@ -364,8 +378,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 72px;
-  padding-top: 96px;
-  padding-bottom: 96px;
 }
 
 
@@ -472,6 +484,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--light-mode-color);
   max-width: 264px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .title-footer  {
@@ -516,6 +529,7 @@ body {
 }
 
 .section-what {
+  display: none;
   padding-bottom: 120px;
 }
 @media screen and (max-width: 768px) {
@@ -525,7 +539,7 @@ body {
 }
 @media screen and (min-width: 1158px) {
   .section-what {
-    padding-bottom: 120px;
+    display: block;
   }
 }
 
@@ -563,7 +577,7 @@ body {
 }
 .footer-portfolio {
   text-align: center;
-  margin-right: 120px;
+  margin-bottom: 72px;
 }
 
 .footer-social-title {
@@ -588,6 +602,10 @@ body {
   }
 }
 .footer-social-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
 }
 .catalog-portfolio {
   font-weight: 500;
@@ -887,12 +905,14 @@ body {
     align-items: baseline;
     display: flex;
     flex-wrap: wrap;
+    gap: 72px 24px;
   }
 }
 @media screen and (min-width: 1158px) {
   .footer-hero  {
     align-items: baseline;
     display: flex;
+
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1157.98px) {
