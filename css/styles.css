@@ -231,7 +231,12 @@ text-align: left;
   background-size: cover;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/page1/Dark-bg1_mob@1x.jpg);
 }
-
+@media screen and (min-width: 1158px) {
+  .section-hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+}
 /* Retina Scren */
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section-hero {
