@@ -579,7 +579,16 @@ body {
   text-align: center;
   margin-bottom: 72px;
 }
-
+@media screen and (min-width: 768px) {
+  .footer-portfolio {
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer-portfolio {
+    margin-right: auto;
+  }
+}
 .footer-social-title {
   text-align: center;
   font-style: normal;
@@ -593,12 +602,12 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer-social-title {
-
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1158px) {
   .footer-social-title {
-
+    margin-right: auto;
   }
 }
 .footer-social-page {
