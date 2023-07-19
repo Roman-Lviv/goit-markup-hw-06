@@ -194,7 +194,9 @@ letter-spacing: 0.4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 0;
 }
-
+.adres-menu-modal-link {
+  margin-bottom: 40px;
+}
 .studiologoheader {
   font-style: normal;
   font-weight: 800;
