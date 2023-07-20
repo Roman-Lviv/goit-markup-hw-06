@@ -639,8 +639,6 @@ text-align: left;
   .section-team {
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
   }
 }
 
@@ -872,7 +870,7 @@ text-align: left;
 @media screen and (min-width: 768px) {
   .page-catalog {
     display: flex;
-    gap: 24px; 
+    gap: 64px 24px; 
     justify-content: center; 
   }
 }
@@ -881,7 +879,6 @@ text-align: left;
     display: flex;
     gap: 24px; 
     justify-content: center; 
-    margin-top: 8px;
   }
 }
 
@@ -1227,13 +1224,15 @@ fill: currentColor;
 }
 @media screen and (min-width: 767px) {
   .modal  {
-  padding-left: 16px;
-  padding-right: 16px;
+    width: 392px;
+    height: 584px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 @media screen and (max-width: 427.8px) {
   .modal  {
-    width: 408px;
+    width: 100%;
     height: 584px;
   }
 }
