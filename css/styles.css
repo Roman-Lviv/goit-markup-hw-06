@@ -633,23 +633,17 @@ text-align: left;
   background-color: var(--light-mode-color);
   padding-top: 96px;
   padding-bottom: 96px;
-  padding-left: 82px;
-  padding-right: 82px;
 }
 @media screen and (min-width: 768px) {
   .section-team {
   padding-top: 96px;
   padding-bottom: 96px;
-  padding-left: 108px;
-  padding-right: 108px;
   }
 }
 @media screen and (min-width: 1158px) {
   .section-team {
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
   }
 }
 
@@ -663,15 +657,11 @@ text-align: left;
 .footer-bag {
   background-color: var(--dark-color);
   padding: 100px 0;
-  /* display: flex; */
-  /* align-items: baseline; */
   margin-left: auto;
   margin-right: auto;
-  /* gap: 72px; */
 }
 .footer-portfolio {
   text-align: center;
-  /* margin-bottom: 72px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -827,15 +817,7 @@ text-align: left;
     gap: 72px 24px;
   }
 }
-@media screen and (min-width: 1158px) {
-  .list-past {
-  
-  }
-}
 
-.list-past-content {
- 
-}
 @media screen and (min-width: 768px) {
   .list-past-content{
     width: calc((100% - 24px) / 2);
@@ -872,7 +854,6 @@ text-align: left;
 
 .page-catalog {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center; 
   margin-top: 8px;
   gap: 72px;
@@ -892,7 +873,11 @@ text-align: left;
     justify-content: center; 
   }
 }
-
+@media screen and (max-width: 1157.8px) {
+  .page-catalog {
+    flex-wrap: wrap;
+  }
+}
 
 .name-person {
   padding: 32px 16px;
@@ -1137,16 +1122,7 @@ fill: currentColor;
   padding-top: 96px;
   padding-bottom: 96px;
 }
-@media screen and (min-width: 768px) {
-  .section-clients {
-    
-  }
-}
-@media screen and (min-width: 1158px) {
-  .section-clients {
 
-  }
-}
 .section-clients-customers {
   width: 320px;
 }
@@ -1298,14 +1274,7 @@ fill: currentColor;
   | Subscribe Form
   |===================================================================================================
 */
-.subscribe {
-  /* margin-left: auto; */
-}
-@media screen and (min-width: 768px) {
-  .subscribe {
-    /* margin-left: auto; */
-  }
-}
+
 @media screen and (min-width: 1158px) {
   .subscribe {
     margin-left: auto;
@@ -1521,14 +1490,6 @@ border-color: var(--blue-button);
   |====================================================================================================
  */
 
-
-/* https://github.com/goitacademy/mobile-menu-workshop */
-
-/**
-  |============================
-  | Mobile Menu
-  |============================
-*/
 .studio-color {
   color: var(--pressed-state-color);
   font-family: Roboto;
@@ -1622,7 +1583,6 @@ border-color: var(--blue-button);
 }
 .mobile-menu .link {
   display: block;
-  /* color: var(--body-text-color); */
   text-decoration: none;
 }
 
