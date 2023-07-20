@@ -110,6 +110,11 @@ body {
     margin-right: 120px;
   }
 }
+@media screen and (min-width: 1158px) {
+  .weblogo {
+    margin-right: 76px;
+  }
+}
 .activ {
   position: relative;
   color: var(--pressed-state-color);
